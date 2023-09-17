@@ -33,7 +33,7 @@ public class SimpleWebAutomation
 	public void login()
 	{
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); //wait for 10 seconds after every element
-		driver.findElement(By.name("firstname")).sendKeys("Maruthiraja");
+		driver.findElement(By.name("firstname")).sendKeys("Maruthiraja"); // Entering username to test texbox
 		driver.findElement(By.name("lastname")).sendKeys("BN");
 		driver.findElement(By.xpath("//div/input[1][@name='sex']")).click();
 		
