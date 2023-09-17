@@ -1,5 +1,7 @@
 package webauto;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,7 +32,7 @@ public class SimpleWebAutomation
 	@Test()
 	public void login()
 	{
-		
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.findElement(By.name("firstname")).sendKeys("Maruthiraja");
 		driver.findElement(By.name("lastname")).sendKeys("BN");
 		driver.findElement(By.xpath("//div/input[1][@name='sex']")).click();
