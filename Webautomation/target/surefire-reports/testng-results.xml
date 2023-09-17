@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T15:47:41 IST" name="Suite" finished-at="2023-09-15T15:48:08 IST" duration-ms="27110">
+    <groups>
+    </groups>
+    <test started-at="2023-09-15T15:47:41 IST" name="Test" finished-at="2023-09-15T15:48:08 IST" duration-ms="27110">
+      <class name="webauto.SimpleWebAutomation">
+        <test-method is-config="true" signature="luanchBrowser()[pri:0, instance:webauto.SimpleWebAutomation@65c7a252]" started-at="2023-09-15T15:47:41 IST" name="luanchBrowser" finished-at="2023-09-15T15:48:05 IST" duration-ms="24685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchBrowser -->
+        <test-method signature="login()[pri:0, instance:webauto.SimpleWebAutomation@65c7a252]" started-at="2023-09-15T15:48:05 IST" name="login" finished-at="2023-09-15T15:48:06 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="contanctUs()[pri:1, instance:webauto.SimpleWebAutomation@65c7a252]" started-at="2023-09-15T15:48:06 IST" name="contanctUs" finished-at="2023-09-15T15:48:06 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contanctUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webauto.SimpleWebAutomation@65c7a252]" started-at="2023-09-15T15:48:06 IST" name="tearDown" finished-at="2023-09-15T15:48:08 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webauto.SimpleWebAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
